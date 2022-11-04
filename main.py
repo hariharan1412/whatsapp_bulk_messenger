@@ -113,7 +113,8 @@ class alumni:
 
         phoneNo = phoneNumber['Contact'].tolist()
 
-        wts = ' https://web.whatsapp.com/send?phone=+91'
+        country_code = "+91"
+        wts = ' https://web.whatsapp.com/send?phone='+country_code
 
         print(phoneNo)
 
