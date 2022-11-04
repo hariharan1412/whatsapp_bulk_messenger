@@ -1,9 +1,42 @@
-# whatsapp_bulk_messenger
+# _**Whatsapp_Bulk_Messenger**_
 
-1. Run Projecthub.py file 
-2. Select Bulk Messenger 
-3. Select a .CSV file which contians all the numbers you want to sent messages under a 'phoneNumber' column
-4. Enter the common message you want to sent everyone
-5. scan the QR Code.
+## **GUI**
+<img src="interface.png" width=50% height=50%>
+
+## **Features**
+
+- Login once and use forever
+  - want to add new user ? delete ```User_Data``` directory 
+   
+- Can send attachments
+- Can send multi line messages
+- A Log file to notice how many messages have sent and not sent
+
+## Installation
+
+> Install ```requirements.txt```
+
+```pip install -r requirements.txt```
+
+> run ```main.py``` file
+
+```python3 main.py```
+
+## How to use
+
+- "Enter Message" - Type the message you want to send 
+
+- "Select Chromedriver file" - select the correct Chromedriver file (**Compulsary**)
+
+- "Select Contact file" - select the contact file which have the list of contacts that you want to send messages (**Compulsary**)
+
+    - The Contact file should be in either .csv or .xlsx format
+    
+    - The column name of the list of contact numbers should be "Contact". For Example refer ```phone_number.csv```
+   
+-  "Select Attachment file" - if you want to attach any documents or file along with the text message then you can attach the file here (**Optional**)
+
+- "Start" - Starts the Bot
+
 
 Thank You
