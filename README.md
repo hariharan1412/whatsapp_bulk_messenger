@@ -6,11 +6,10 @@
 ## **Features**
 
 - Login once and use forever
-  - want to add new user ? delete ```User_Data``` directory 
+  - want to messege from new user ? delete ```User_Data``` directory 
    
 - Can send attachments
-- Can send multi line messages
-- A Log file to notice how many messages have sent and not sent
+- Can send multiple line messages
 
 ## Installation
 
