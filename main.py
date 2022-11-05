@@ -90,12 +90,9 @@ class alumni:
             raise Exception("PLEASE SELECT YOUR CHROME DRIVER :) ")
 
 
-        options = webdriver.ChromeOptions()
-        options.add_argument('--user-data-dir=./User_Data')
-
         driver_path = self.file_path_driver.name
         
-        self.web = webdriver.Chrome(executable_path=driver_path , options=options)
+        self.web = webdriver.Chrome(executable_path=driver_path)
 
         print(" FILE : " , self.file_path , self.file_path.name)
 
