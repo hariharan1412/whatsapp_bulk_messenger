@@ -5,9 +5,6 @@
 
 ## **Features**
 
-- Login once and use forever
-  - want to messege from new user ? delete ```User_Data``` directory 
-   
 - Can send attachments
 - Can send multiple line messages
 
