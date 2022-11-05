@@ -25,9 +25,9 @@
 
 - "Enter Message" - Type the message you want to send 
 
-- "Select Chromedriver file" - select the correct Chromedriver file (**Compulsary**)
+- "Select Chromedriver file" - select the correct Chromedriver file (**compulsory**)
 
-- "Select Contact file" - select the contact file which have the list of contacts that you want to send messages (**Compulsary**)
+- "Select Contact file" - select the contact file which have the list of contacts that you want to send messages (**compulsory**)
 
     - The Contact file should be in either .csv or .xlsx format
     
