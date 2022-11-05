@@ -9,9 +9,11 @@ from tkinter.filedialog import askopenfile
 import os
 from selenium.webdriver.common.keys import Keys
 
-# PIP INSTALL openpyxl
+try:
+    os.system('clear')
+except:
+    os.system('cls')
 
-os.system('clear')
 
 class alumni:
 
